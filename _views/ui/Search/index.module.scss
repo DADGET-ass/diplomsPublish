@@ -1,0 +1,60 @@
+.search {
+    position: relative;
+
+    .iconSearch {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-left: auto;
+        transition: .4s;
+        color: white;
+        margin-left: 10px;
+
+        svg {
+            height: 100%;
+        }
+    }
+
+    .iconCross {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-right: 10px;
+        transition: .4s;
+        color: white;
+        cursor: pointer;
+
+        svg {
+
+            height: 20px;
+            width: 20px;
+            transition: .4s;
+            &:hover {
+                transition: .4s;
+                color: red;
+
+            }
+        }
+    }
+
+    .input {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            background: none;
+            font-weight: 200;
+            color: white;
+
+        }
+
+        input::placeholder {
+            color: white;
+
+        }
+
+    }
+}

@@ -1,0 +1,34 @@
+@import '../index.module.scss';
+
+.facultsBlock {
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--greenTwo);
+    border-bottom:3px solid white;
+    .facultContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-left: auto;
+        transition: .4s;
+
+        svg {
+            height: 100%;
+        }
+    }
+
+    .rot {
+        transform: rotate(180deg);
+        transition: .4s;
+    }
+}
